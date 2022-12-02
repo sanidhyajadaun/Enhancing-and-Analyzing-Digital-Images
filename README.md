@@ -49,4 +49,21 @@ o Combine the new channels to create the new image and return <br>
      
      -----------------------------------
 
+### Programming Assignment 2
 
+
+- You have to take an image of your face. Make sure you're wearing clear spectacles so that more edges are visible. 
+- There should be three images(one clear image, one with gaussian noise and one with salt and pepper noise)
+- Perform 5 edge detection techniques on these three images <br>
+1. Prewitt Edge Detection <br>
+2. Sobel Edge Detection <br>
+3. Laplacian Edge Detection <br>
+4. Canny Edge Detection <br>
+5. Robert Edge Detection <br>
+- Perform Thresholding Technique <br>
+1. Simple/Binary Thresholding <br>
+2. Mean Adaptive Thresholding <br> 
+3. Gaussian Adaptive Thresholding <br>
+4. Ostu's Thresholding <bn>
+
+-----------------------------------
