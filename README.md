@@ -1,6 +1,6 @@
 # Image-Processing-UPES
 
-### Programming Assignment 1
+### Task 1
 
 1.	Image resizing is a widely used operation in image processing. Either for scaling up or for scaling down, we use interpolation to find the corresponding pixel intensity in the resulting image. Choice of interpolation method is important as it directly affects the quality of the resulting image. The following interpolation methods were mentioned in class: <br>
 
@@ -49,7 +49,7 @@ o Combine the new channels to create the new image and return <br>
      
      -----------------------------------
 
-### Programming Assignment 2
+### Task - 2
 
 
 - You have to take an image of your face. Make sure you're wearing clear spectacles so that more edges are visible. 
