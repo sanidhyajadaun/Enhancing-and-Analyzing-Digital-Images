@@ -1,4 +1,4 @@
-# Image-Processing-UPES
+# Enhancing and Analyzing Digital Images
 
 ### Task 1
 
