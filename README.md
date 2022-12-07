@@ -8,25 +8,25 @@
      • Bilinear <br>
      • Bicubic <br>
 
-    If you look at PILLOWS reference page you can see that the resize() function has predefined resampling functions: <br>
+    If we look at PILLOWS reference page wean see that the resize() function has predefined resampling functions: <br>
 
     • PIL.Image.NEAREST <br>
     • PIL.Image.BILINEAR <br>
     • PIL.Image.BICUBIC <br>
     • PIL.Image.LANCZOS <br>
 
-      LANCZOS is a more sophisticated method which gives better results compared to first three methods. If you're interested search the internet for more details on LANCZOS Resampling Method. <br>
+      LANCZOS is a more sophisticated method which gives better results compared to first three methods.<br>
 
-     For this question, you will implement a jupyter notebook script and it will perform these operations :
+     For this question, we will implement a jupyter notebook script and will perform these operations :
 
     Ques 1. Read color version of the image "lena.png", Convert colored lena image to grayscale image. <br>
     Ques 2. Resize (scale down) the grayscale lena image to half its original size. Then, resize (scale up) it up back to the original size using resize() with PIL.Image.NEAREST <br>
     Ques3. Resize (scale down) the grayscale lena image to half its original size. Then, resize (scale up) it up back to the original size using resize() with PIL.Image.BILINEAR <br>
     Ques4. Resize (scale down) the grayscale lena image to half its original size. Then, resize (scale up) it up back to the original size using resize() with PIL.Image.BICUBIC <br>
-    Ques5. Your script should display the results as follows using matplotlib along with the PSNR values w.r.t original image below the result image
+    Ques5. our script should display the results as follows using matplotlib along with the PSNR values w.r.t original image below the result image
 -----------------------
 
-2.	Ques1. Define a generic function (ChSwap) that takes a color image as input and returns the corresponding output image in which the R,G,B channels are swapped as follows: <br>
+2.	Ques1. Defining a generic function (ChSwap) that takes a color image as input and returns the corresponding output image in which the R,G,B channels are swapped as follows: <br>
 o Splits the input image into R, G, B Channels o Red (Out) = Blue (In)<br>
 o Green (Out) = Red (In) o Blue (Out) = Green(In) <br>
 o Combine the new channels to create the new image and return <br>
@@ -52,7 +52,7 @@ o Combine the new channels to create the new image and return <br>
 ### Task - 2
 
 
-- You have to take an image of your face. Make sure you're wearing clear spectacles so that more edges are visible. 
+- We have to take an image of our face. Make sure you're wearing clear spectacles so that more edges are visible. 
 - There should be three images(one clear image, one with gaussian noise and one with salt and pepper noise)
 - Perform 5 edge detection techniques on these three images <br>
 1. Prewitt Edge Detection <br>
